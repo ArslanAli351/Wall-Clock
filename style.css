@@ -1,0 +1,179 @@
+body {
+    background-image: url(image.png);
+}
+
+.main {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digit-1 {
+    margin-top: 17px;
+    margin-left: 165px;
+    position: absolute;
+}
+
+.digit-2 {
+    margin-top: 53px;
+    margin-left: 198px;
+    position: absolute;
+}
+
+.digit-3 {
+    margin-top: 98px;
+    margin-left: 207px;
+    position: absolute;
+}
+
+.digit-4 {
+    margin-top: 139px;
+    margin-left: 185px;
+    position: absolute;
+}
+
+.digit-5 {
+    margin-top: 170px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.digit-6 {
+    margin-top: 180px;
+    margin-left: 105px;
+    position: absolute;
+}
+
+.digit-7 {
+    margin-top: 170px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.digit-8 {
+    margin-top: 140px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.digit-9 {
+    margin-top: 100px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+.digit-10 {
+    margin-top: 50px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.digit-11 {
+    margin-top: 20px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.digit-12 {
+    margin-top: 5px;
+    margin-left: 105px;
+    position: absolute;
+}
+
+.handler {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border: 10px solid #56c2d8;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 20px #0000001a;
+}
+
+#minute {
+    width: 4px;
+    height: 80px;
+    background: #666;
+    z-index: 2;
+}
+
+#second {
+    width: 2px;
+    height: 100px;
+    background: #9c9d9e;
+    z-index: 1;
+}
+
+#hour {
+    width: 6px;
+    height: 60px;
+    background: #333;
+    z-index: 3;
+}
+
+#mid_point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand1 {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hand2 {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hand3 {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    width: 80%;
+    margin-top: -140PX;
+    margin-left: 140px;
+}
+
+.disen {
+    border: 1px solid red;
+    border-radius: 50%;
+    border-style: dashed;
+}
+
+.disen2 {
+    border: 15px solid #98cfe7;
+    border-radius: 50%;
+}
+
+.disen1 {
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    border-style: dashed;
+}
+
+.disenDiv {
+    border: 5px solid #e7cf98;
+    border-radius: 50%;
+}
